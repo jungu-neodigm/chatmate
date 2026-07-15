@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>도입 절차 | ChatMate</title>
+<script src="https://cdn.tailwindcss.com"></script>
+<link rel="stylesheet" href="assets/site.css">
+</head>
+<body class="bg-white text-slate-900 antialiased">
+
+<div id="site-header"></div>
+
+<section class="relative overflow-hidden bg-gradient-to-br from-slate-50 via-blue-50 to-indigo-50">
+  <div class="dot-grid pointer-events-none absolute inset-0 opacity-[0.04]"></div>
+  <div class="relative mx-auto max-w-5xl px-4 pb-20 pt-20 text-center sm:px-6 sm:pb-28 sm:pt-28">
+    <div class="mb-6 inline-flex rounded-full border border-blue-200 bg-white/70 px-4 py-1.5 text-xs font-medium text-blue-700">How It Works</div>
+    <h1 class="text-4xl font-extrabold leading-tight tracking-tight text-slate-900 sm:text-5xl lg:text-6xl">
+      AI 챗봇 도입부터 운영 개선까지<br>단계별로 진행합니다.
+    </h1>
+    <p class="mx-auto mt-6 max-w-2xl text-lg leading-relaxed text-gray-600">
+      프로젝트 생성, 지식 데이터 연결, 챗봇 설정, 답변 검수, 위젯 배포, 운영 분석까지<br class="hidden sm:block">
+      실제 서비스 운영에 필요한 흐름을 체계적으로 제공합니다.
+    </p>
+  </div>
+</section>
+
+<!-- Step overview strip -->
+<section class="border-y border-gray-100 bg-white py-6">
+  <div class="mx-auto max-w-6xl overflow-x-auto px-4 sm:px-6">
+    <div class="flex min-w-max justify-center gap-2 text-xs font-semibold text-gray-500">
+      <a href="#step01" class="rounded-full bg-slate-100 px-4 py-2 hover:bg-slate-200">01 프로젝트 생성</a>
+      <a href="#step02" class="rounded-full bg-slate-100 px-4 py-2 hover:bg-slate-200">02 권한 설정</a>
+      <a href="#step03" class="rounded-full bg-slate-100 px-4 py-2 hover:bg-slate-200">03 데이터 연결</a>
+      <a href="#step04" class="rounded-full bg-slate-100 px-4 py-2 hover:bg-slate-200">04 처리·검수</a>
+      <a href="#step05" class="rounded-full bg-slate-100 px-4 py-2 hover:bg-slate-200">05 화면 설정</a>
+      <a href="#step06" class="rounded-full bg-slate-100 px-4 py-2 hover:bg-slate-200">06 답변 정책</a>
+      <a href="#step07" class="rounded-full bg-slate-100 px-4 py-2 hover:bg-slate-200">07 배포</a>
+      <a href="#step08" class="rounded-full bg-slate-100 px-4 py-2 hover:bg-slate-200">08 운영 분석</a>
+    </div>
+  </div>
+</section>
+
+<!-- Step 01 -->
+<section id="step01" class="scroll-mt-20 py-20 sm:py-24">
+  <div class="mx-auto max-w-5xl px-4 sm:px-6">
+    <div class="grid gap-10 lg:grid-cols-[auto_1fr] lg:gap-14">
+      <div class="text-6xl font-black text-gray-100 lg:text-8xl">01</div>
+      <div>
+        <h2 class="mb-3 text-2xl font-extrabold text-slate-900 sm:text-3xl">프로젝트 생성</h2>
+        <p class="mb-6 text-gray-600 leading-relaxed">
+          먼저 브랜드 또는 조직 단위의 챗봇 프로젝트를 생성합니다.
+          홈페이지 주소와 허용 도메인을 등록해 승인된 웹사이트에서만 챗봇이 동작하도록 준비합니다.
+        </p>
+        <div class="grid gap-6 sm:grid-cols-2">
+          <div class="rounded-xl border border-gray-100 bg-slate-50 p-5">
+            <p class="mb-2 text-xs font-bold uppercase tracking-widest text-gray-400">입력 정보</p>
+            <ul class="space-y-1.5 text-sm text-gray-600">
+              <li>프로젝트명 / 고객사명</li>
+              <li>대표 홈페이지 주소</li>
+              <li>허용 도메인</li>
+              <li>담당자 이메일</li>
+              <li>사용 모델 / 월 사용 한도</li>
+            </ul>
+          </div>
+          <div class="rounded-xl border border-gray-100 bg-slate-50 p-5">
+            <p class="mb-2 text-xs font-bold uppercase tracking-widest text-gray-400">프로젝트 상태값</p>
+            <div class="flex flex-wrap gap-2 text-xs font-medium">
+              <span class="rounded-full bg-gray-200 px-3 py-1">준비중</span>
+              <span class="rounded-full bg-gray-200 px-3 py-1">설정중</span>
+              <span class="rounded-full bg-amber-100 px-3 py-1 text-amber-700">검수중</span>
+              <span class="rounded-full bg-emerald-100 px-3 py-1 text-emerald-700">운영중</span>
+              <span class="rounded-full bg-gray-200 px-3 py-1">일시중지</span>
+              <span class="rounded-full bg-gray-200 px-3 py-1">종료</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Step 02 -->
+<section id="step02" class="scroll-mt-20 bg-slate-50 py-20 sm:py-24">
+  <div class="mx-auto max-w-5xl px-4 sm:px-6">
+    <div class="grid gap-10 lg:grid-cols-[auto_1fr] lg:gap-14">
+      <div class="text-6xl font-black text-gray-200 lg:text-8xl">02</div>
+      <div>
+        <h2 class="mb-3 text-2xl font-extrabold text-slate-900 sm:text-3xl">관리자 및 권한 설정</h2>
+        <p class="mb-6 text-gray-600 leading-relaxed">
+          관리자와 운영 담당자를 초대해 역할별로 접근 권한을 나눌 수 있습니다.
+          지식 데이터 관리, 답변지침 수정, 질문 리스트 확인 등 업무에 맞는 권한을 부여합니다.
+        </p>
+        <div class="overflow-x-auto rounded-xl border border-gray-200 bg-white">
+          <table class="w-full text-left text-sm">
+            <thead class="bg-gray-50 text-gray-500">
+              <tr><th class="px-4 py-3 font-semibold">기능</th><th class="px-4 py-3 font-semibold">운영사 관리자</th><th class="px-4 py-3 font-semibold">고객사 관리자</th><th class="px-4 py-3 font-semibold">운영 담당자</th></tr>
+            </thead>
+            <tbody class="divide-y divide-gray-100 text-gray-700">
+              <tr><td class="px-4 py-2.5">프로젝트 생성</td><td class="px-4 py-2.5">가능</td><td class="px-4 py-2.5">불가</td><td class="px-4 py-2.5">불가</td></tr>
+              <tr><td class="px-4 py-2.5">프로젝트 설정 수정</td><td class="px-4 py-2.5">가능</td><td class="px-4 py-2.5">가능</td><td class="px-4 py-2.5">제한 가능</td></tr>
+              <tr><td class="px-4 py-2.5">사용자 초대</td><td class="px-4 py-2.5">가능</td><td class="px-4 py-2.5">가능</td><td class="px-4 py-2.5">불가</td></tr>
+              <tr><td class="px-4 py-2.5">지식 데이터 관리</td><td class="px-4 py-2.5">가능</td><td class="px-4 py-2.5">가능</td><td class="px-4 py-2.5">가능</td></tr>
+              <tr><td class="px-4 py-2.5">답변지침 관리</td><td class="px-4 py-2.5">가능</td><td class="px-4 py-2.5">가능</td><td class="px-4 py-2.5">조회/제한</td></tr>
+              <tr><td class="px-4 py-2.5">사용량 한도 변경</td><td class="px-4 py-2.5">가능</td><td class="px-4 py-2.5">불가</td><td class="px-4 py-2.5">불가</td></tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Step 03 -->
+<section id="step03" class="scroll-mt-20 py-20 sm:py-24">
+  <div class="mx-auto max-w-5xl px-4 sm:px-6">
+    <div class="grid gap-10 lg:grid-cols-[auto_1fr] lg:gap-14">
+      <div class="text-6xl font-black text-gray-100 lg:text-8xl">03</div>
+      <div>
+        <h2 class="mb-3 text-2xl font-extrabold text-slate-900 sm:text-3xl">지식 데이터 연결</h2>
+        <p class="mb-6 text-gray-600 leading-relaxed">
+          웹사이트, FAQ, 문서, 상품 정보 등 고객이 자주 찾는 정보를 챗봇의 지식 데이터로 연결합니다.
+          AI는 이 데이터를 기준으로 답변하므로, 기존 콘텐츠를 대화형 고객 경험으로 전환할 수 있습니다.
+        </p>
+        <div class="grid gap-4 sm:grid-cols-2">
+          <div class="rounded-xl border border-gray-100 bg-slate-50 p-5">
+            <p class="mb-2 text-xs font-bold uppercase tracking-widest text-gray-400">데이터 유형</p>
+            <p class="text-sm text-gray-600 leading-relaxed">웹사이트 URL · 사이트맵 · FAQ · 직접 Q&amp;A · 상품 정보 · 서비스 소개 문서 · 도움말 문서 · 업무 매뉴얼 · 정책 문서 · 공지사항</p>
+          </div>
+          <div class="rounded-xl border border-gray-100 bg-slate-50 p-5">
+            <p class="mb-2 text-xs font-bold uppercase tracking-widest text-gray-400">관리 항목</p>
+            <p class="text-sm text-gray-600 leading-relaxed">데이터명 · 유형 · 출처 URL · 카테고리 · 우선순위 · 사용 상태 · 처리 상태 · 마지막 처리일 · 실패 사유 · 재처리</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Step 04 -->
+<section id="step04" class="scroll-mt-20 bg-slate-50 py-20 sm:py-24">
+  <div class="mx-auto max-w-5xl px-4 sm:px-6">
+    <div class="grid gap-10 lg:grid-cols-[auto_1fr] lg:gap-14">
+      <div class="text-6xl font-black text-gray-200 lg:text-8xl">04</div>
+      <div>
+        <h2 class="mb-3 text-2xl font-extrabold text-slate-900 sm:text-3xl">데이터 처리 및 검수</h2>
+        <p class="mb-6 text-gray-600 leading-relaxed">
+          수집된 데이터는 자동으로 정제되고 검색 가능한 형태로 처리됩니다.
+          처리 실패나 제외 대상은 사유를 확인할 수 있어, 운영자가 어떤 데이터를 보강해야 하는지 쉽게 파악할 수 있습니다.
+        </p>
+        <div class="mb-4 flex flex-wrap items-center gap-2 text-xs font-semibold text-gray-500">
+          <span class="rounded-full bg-white border border-gray-200 px-3 py-1.5">등록</span>→
+          <span class="rounded-full bg-white border border-gray-200 px-3 py-1.5">수집</span>→
+          <span class="rounded-full bg-white border border-gray-200 px-3 py-1.5">본문 추출/정제</span>→
+          <span class="rounded-full bg-white border border-gray-200 px-3 py-1.5">중복 제거/분할</span>→
+          <span class="rounded-full bg-white border border-gray-200 px-3 py-1.5">임베딩</span>→
+          <span class="rounded-full bg-blue-600 text-white px-3 py-1.5">완료</span>
+        </div>
+        <div class="grid gap-4 sm:grid-cols-2">
+          <div class="rounded-xl border border-gray-100 bg-white p-5">
+            <p class="mb-2 text-xs font-bold uppercase tracking-widest text-gray-400">실패 사유 그룹</p>
+            <p class="text-sm text-gray-600 leading-relaxed">접근 실패 · 본문 부족 · 형식 미지원 · 파싱 실패 · 중복/제외 대상 · 보안/권한 제한 · 시스템 오류</p>
+          </div>
+          <div class="rounded-xl border border-gray-100 bg-white p-5">
+            <p class="mb-2 text-xs font-bold uppercase tracking-widest text-gray-400">URL 분류</p>
+            <p class="text-sm text-gray-600 leading-relaxed">학습 가능 · 검색 전용 · 제외 · 검토 필요</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Step 05 -->
+<section id="step05" class="scroll-mt-20 py-20 sm:py-24">
+  <div class="mx-auto max-w-5xl px-4 sm:px-6">
+    <div class="grid gap-10 lg:grid-cols-[auto_1fr] lg:gap-14">
+      <div class="text-6xl font-black text-gray-100 lg:text-8xl">05</div>
+      <div>
+        <h2 class="mb-3 text-2xl font-extrabold text-slate-900 sm:text-3xl">챗봇 화면 설정</h2>
+        <p class="mb-6 text-gray-600 leading-relaxed">
+          브랜드나 서비스 톤에 맞게 챗봇의 첫인상과 대화 화면을 설정합니다.
+          첫 메시지, 추천질문, 입력창 문구, 아이콘, 하단 고지문까지 관리자가 직접 조정할 수 있습니다.
+        </p>
+        <div class="grid gap-4 sm:grid-cols-2">
+          <div class="rounded-xl border border-gray-100 bg-slate-50 p-5">
+            <p class="mb-2 text-xs font-bold uppercase tracking-widest text-gray-400">설정 항목</p>
+            <p class="text-sm text-gray-600 leading-relaxed">플로팅 버튼 아이콘 · 채팅창 로고/이름 · 홈페이지 주소 · AI봇 아이콘 · 첫 메시지 · 입력창 안내문 · 하단 고지문 · 추천질문 · 글자 크기</p>
+          </div>
+          <div class="rounded-xl border border-gray-100 bg-slate-50 p-5">
+            <p class="mb-2 text-xs font-bold uppercase tracking-widest text-gray-400">사용자 화면 기능</p>
+            <p class="text-sm text-gray-600 leading-relaxed">플로팅 버튼 · 첫 메시지·추천질문 노출 · 텍스트 질문 입력 · 출처 표시 · 좋아요/싫어요 평가 · 대화 초기화 · 글자 크기 확대</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Step 06 -->
+<section id="step06" class="scroll-mt-20 bg-slate-50 py-20 sm:py-24">
+  <div class="mx-auto max-w-5xl px-4 sm:px-6">
+    <div class="grid gap-10 lg:grid-cols-[auto_1fr] lg:gap-14">
+      <div class="text-6xl font-black text-gray-200 lg:text-8xl">06</div>
+      <div>
+        <h2 class="mb-3 text-2xl font-extrabold text-slate-900 sm:text-3xl">답변 정책 설정</h2>
+        <p class="mb-6 text-gray-600 leading-relaxed">
+          AI가 브랜드에 맞지 않는 답변을 하지 않도록 답변지침과 안전 정책을 설정합니다.
+          기업별 말투, 금지 표현, 개인정보 처리 기준, 근거 부족 시 응답 방식을 관리할 수 있습니다.
+        </p>
+        <div class="rounded-xl border border-gray-100 bg-white p-5">
+          <p class="mb-2 text-xs font-bold uppercase tracking-widest text-gray-400">기본 답변 정책</p>
+          <p class="text-sm text-gray-600 leading-relaxed">등록된 지식 데이터 우선 검색 · RAG 기반 답변 · 근거 부족 시 임의 답변 금지 · 출처 제공 · 개인정보 포함 질문 차단 · 모델 정보 미노출 · 브랜드 톤 유지</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Step 07 -->
+<section id="step07" class="scroll-mt-20 py-20 sm:py-24">
+  <div class="mx-auto max-w-5xl px-4 sm:px-6">
+    <div class="grid gap-10 lg:grid-cols-[auto_1fr] lg:gap-14">
+      <div class="text-6xl font-black text-gray-100 lg:text-8xl">07</div>
+      <div>
+        <h2 class="mb-3 text-2xl font-extrabold text-slate-900 sm:text-3xl">테스트 검수 및 배포</h2>
+        <p class="mb-6 text-gray-600 leading-relaxed">
+          운영 전 테스트 질문으로 답변 품질과 사용자 화면을 검수합니다.
+          검수가 완료되면 제공된 위젯 스크립트를 웹사이트에 삽입해 챗봇을 공개합니다.
+        </p>
+        <div class="grid gap-4 sm:grid-cols-2">
+          <div class="rounded-xl border border-gray-100 bg-slate-50 p-5">
+            <p class="mb-2 text-xs font-bold uppercase tracking-widest text-gray-400">검수 항목</p>
+            <p class="text-sm text-gray-600 leading-relaxed">첫 메시지/추천질문 노출 · 정상 질문 답변 · 출처 표시 · RAG 실패 응답 · 개인정보 차단 · 부정 평가 저장 · 모바일 반응형 · 도메인 검증</p>
+          </div>
+          <div class="rounded-xl border border-gray-100 bg-slate-50 p-5">
+            <p class="mb-2 text-xs font-bold uppercase tracking-widest text-gray-400">위젯 배포</p>
+            <p class="text-sm text-gray-600 leading-relaxed">위젯 스크립트 발급 → 웹사이트에 script 삽입 → siteId 기반 초기화 → 허용 도메인 검증 → 운영중 전환 → 실제 노출</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Step 08 -->
+<section id="step08" class="scroll-mt-20 bg-slate-50 py-20 sm:py-24">
+  <div class="mx-auto max-w-5xl px-4 sm:px-6">
+    <div class="grid gap-10 lg:grid-cols-[auto_1fr] lg:gap-14">
+      <div class="text-6xl font-black text-gray-200 lg:text-8xl">08</div>
+      <div>
+        <h2 class="mb-3 text-2xl font-extrabold text-slate-900 sm:text-3xl">운영 분석 및 개선</h2>
+        <p class="mb-6 text-gray-600 leading-relaxed">
+          챗봇이 실제로 받은 질문과 답변 품질 데이터를 분석해 지속적으로 개선합니다.
+          반복 질문은 추천질문으로 등록하고, 실패 질문은 직접 Q&amp;A나 지식 데이터 보강으로 해결할 수 있습니다.
+        </p>
+        <div class="grid gap-4 sm:grid-cols-2">
+          <div class="rounded-xl border border-gray-100 bg-white p-5">
+            <p class="mb-2 text-xs font-bold uppercase tracking-widest text-gray-400">운영 지표</p>
+            <p class="text-sm text-gray-600 leading-relaxed">질문 수 · 답변 성공률 · RAG 실패 수 · 부정 평가 수 · 개인정보 차단 수 · CTA 클릭 수 · 토큰 사용량 · 예상 비용</p>
+          </div>
+          <div class="rounded-xl border border-gray-100 bg-white p-5">
+            <p class="mb-2 text-xs font-bold uppercase tracking-widest text-gray-400">개선 방식</p>
+            <p class="text-sm text-gray-600 leading-relaxed">직접 Q&amp;A 등록 · 기존 답변 수정 · 출처 URL 추가 · 추천질문 등록 · 답변지침 수정 · 지식 데이터 재처리</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CTA -->
+<section class="relative overflow-hidden bg-gradient-to-br from-slate-50 via-blue-50 to-indigo-50 py-20">
+  <div class="dot-grid pointer-events-none absolute inset-0 opacity-[0.04]"></div>
+  <div class="relative mx-auto max-w-2xl px-4 text-center">
+    <h2 class="text-2xl font-extrabold text-slate-900 sm:text-3xl">우리 서비스에 맞는 도입 흐름을 함께 설계해 드립니다.</h2>
+    <div class="mt-8 flex flex-col items-center justify-center gap-4 sm:flex-row">
+      <a href="contact.html" class="w-full rounded-full bg-slate-900 px-8 py-3 text-center text-sm font-semibold text-white hover:bg-slate-800 sm:w-auto">데모 신청하기</a>
+      <a href="admin-console.html" class="w-full rounded-full border border-gray-300 bg-white px-8 py-3 text-center text-sm font-semibold text-slate-700 hover:bg-gray-50 sm:w-auto">관리자 콘솔 보기</a>
+    </div>
+  </div>
+</section>
+
+<div id="site-footer"></div>
+<script src="assets/site.js" data-base="." data-page="how-it-works"></script>
+</body>
+</html>

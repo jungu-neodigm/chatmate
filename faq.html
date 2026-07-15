@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>FAQ | ChatMate</title>
+<script src="https://cdn.tailwindcss.com"></script>
+<link rel="stylesheet" href="assets/site.css">
+</head>
+<body class="bg-white text-slate-900 antialiased">
+
+<div id="site-header"></div>
+
+<section class="relative overflow-hidden bg-gradient-to-br from-slate-50 via-blue-50 to-indigo-50">
+  <div class="dot-grid pointer-events-none absolute inset-0 opacity-[0.04]"></div>
+  <div class="relative mx-auto max-w-5xl px-4 pb-20 pt-20 text-center sm:px-6 sm:pb-28 sm:pt-28">
+    <div class="mb-6 inline-flex rounded-full border border-blue-200 bg-white/70 px-4 py-1.5 text-xs font-medium text-blue-700">Resources · FAQ</div>
+    <h1 class="text-4xl font-extrabold leading-tight tracking-tight text-slate-900 sm:text-5xl lg:text-6xl">자주 묻는 질문</h1>
+  </div>
+</section>
+
+<section class="py-20 sm:py-24">
+  <div class="mx-auto max-w-3xl px-4 sm:px-6">
+    <div class="divide-y divide-gray-200 rounded-2xl border border-gray-200 bg-white">
+
+      <div class="faq-item px-6 py-5">
+        <button class="faq-toggle flex w-full items-center justify-between text-left">
+          <span class="pr-4 font-semibold text-slate-900">ChatMate란 무엇인가요?</span>
+          <span class="faq-icon shrink-0 text-xl text-gray-400 transition-transform">+</span>
+        </button>
+        <div class="faq-answer text-sm leading-relaxed text-gray-600">
+          ChatMate는 웹사이트, 문서, FAQ, 상품 데이터 등 기존 지식 자산을 대화형 인터페이스로 전환하는 AI 챗봇 서비스입니다.
+          사용자는 검색창이나 메뉴 탐색 대신 자연어 질문으로 필요한 정보를 찾고, 챗봇은 등록된 데이터와 정책을 기반으로 답변합니다.
+        </div>
+      </div>
+
+      <div class="faq-item px-6 py-5">
+        <button class="faq-toggle flex w-full items-center justify-between text-left">
+          <span class="pr-4 font-semibold text-slate-900">일반 GPT 챗봇과 무엇이 다른가요?</span>
+          <span class="faq-icon shrink-0 text-xl text-gray-400 transition-transform">+</span>
+        </button>
+        <div class="faq-answer text-sm leading-relaxed text-gray-600">
+          일반 AI 어시스턴트는 답변이 일반적이고 브랜드와 연결되지 않는 반면, ChatMate는 고객사 데이터와 승인된 콘텐츠를 기반으로 탐색을 개인화된 대화로 전환합니다.
+          단순 GPT 채팅창이 아니라 고객사 데이터 기반의 AI 상담 채널이며, 웹사이트 탐색, 고객지원, 상품 추천, 상담 연결까지 연결합니다.
+        </div>
+      </div>
+
+      <div class="faq-item px-6 py-5">
+        <button class="faq-toggle flex w-full items-center justify-between text-left">
+          <span class="pr-4 font-semibold text-slate-900">우리 웹사이트의 모든 페이지를 학습해야 하나요?</span>
+          <span class="faq-icon shrink-0 text-xl text-gray-400 transition-transform">+</span>
+        </button>
+        <div class="faq-answer text-sm leading-relaxed text-gray-600">
+          아닙니다. 모든 페이지를 무차별적으로 학습하기보다, 실제 답변 근거가 되는 페이지를 우선 선별합니다.
+          사이트맵을 기준으로 수집하고, 로그인 페이지나 검색 결과 페이지처럼 불필요한 페이지는 제외합니다.
+        </div>
+      </div>
+
+      <div class="faq-item px-6 py-5">
+        <button class="faq-toggle flex w-full items-center justify-between text-left">
+          <span class="pr-4 font-semibold text-slate-900">답변은 어떤 기준으로 생성되나요?</span>
+          <span class="faq-icon shrink-0 text-xl text-gray-400 transition-transform">+</span>
+        </button>
+        <div class="faq-answer text-sm leading-relaxed text-gray-600">
+          등록된 RAG 데이터, 직접 Q&amp;A, 기업이 설정한 답변지침을 기준으로 답변합니다.
+          근거가 부족한 경우 임의로 답변하지 않고, 재질문·추천질문·상담 연결 등 안전한 fallback을 제공합니다.
+        </div>
+      </div>
+
+      <div class="faq-item px-6 py-5">
+        <button class="faq-toggle flex w-full items-center justify-between text-left">
+          <span class="pr-4 font-semibold text-slate-900">개인정보가 포함된 질문은 어떻게 처리되나요?</span>
+          <span class="faq-icon shrink-0 text-xl text-gray-400 transition-transform">+</span>
+        </button>
+        <div class="faq-answer text-sm leading-relaxed text-gray-600">
+          주민등록번호, 전화번호, 주소, 계좌번호 등 개인정보가 포함된 질문은 처리하지 않습니다.
+          AI 답변 생성을 실행하지 않고, 원문도 저장하지 않으며, 관리자 화면에는 차단 건수만 집계합니다.
+        </div>
+      </div>
+
+      <div class="faq-item px-6 py-5">
+        <button class="faq-toggle flex w-full items-center justify-between text-left">
+          <span class="pr-4 font-semibold text-slate-900">챗봇은 기존 웹사이트에 어떻게 설치하나요?</span>
+          <span class="faq-icon shrink-0 text-xl text-gray-400 transition-transform">+</span>
+        </button>
+        <div class="faq-answer text-sm leading-relaxed text-gray-600">
+          웹사이트에 제공된 위젯 스크립트를 삽입하는 방식으로 설치합니다.
+          허용 도메인과 실제 요청 도메인을 검증해 승인된 웹사이트에서만 동작하도록 구성합니다.
+        </div>
+      </div>
+
+      <div class="faq-item px-6 py-5">
+        <button class="faq-toggle flex w-full items-center justify-between text-left">
+          <span class="pr-4 font-semibold text-slate-900">브랜드 말투와 응대 기준을 설정할 수 있나요?</span>
+          <span class="faq-icon shrink-0 text-xl text-gray-400 transition-transform">+</span>
+        </button>
+        <div class="faq-answer text-sm leading-relaxed text-gray-600">
+          가능합니다. 운영자는 프로젝트별로 답변 톤, 답변 길이, 금지 표현, 근거 부족 시 응답 방식을 설정할 수 있습니다.
+          이커머스의 친절한 톤, 병원의 신중한 톤, 공공기관의 공식적인 톤 등 업종별 응대 기준을 적용할 수 있습니다.
+        </div>
+      </div>
+
+      <div class="faq-item px-6 py-5">
+        <button class="faq-toggle flex w-full items-center justify-between text-left">
+          <span class="pr-4 font-semibold text-slate-900">B2C 전용인가요, B2B에도 쓸 수 있나요?</span>
+          <span class="faq-icon shrink-0 text-xl text-gray-400 transition-transform">+</span>
+        </button>
+        <div class="faq-answer text-sm leading-relaxed text-gray-600">
+          둘 다 지원합니다. B2C에는 상품 추천, 가격/재고 안내, 구매 전 문의, 고객지원을, B2B에는 서비스 비교, 도입 상담, 사례 제안, 데모 예약, 리드 수집을 지원합니다.
+          공공/기관에는 민원 안내와 행정정보 검색을, 내부 업무에는 사내 문서 검색과 매뉴얼 안내를 지원합니다.
+        </div>
+      </div>
+
+      <div class="faq-item px-6 py-5">
+        <button class="faq-toggle flex w-full items-center justify-between text-left">
+          <span class="pr-4 font-semibold text-slate-900">잘못된 답변이나 부족한 답변은 어떻게 개선하나요?</span>
+          <span class="faq-icon shrink-0 text-xl text-gray-400 transition-transform">+</span>
+        </button>
+        <div class="faq-answer text-sm leading-relaxed text-gray-600">
+          질문 리스트에서 RAG 실패, 부정 평가, 반복 질문을 확인할 수 있습니다.
+          운영자는 해당 질문에 직접 답변을 등록하거나, 기존 데이터를 보강해 다음 답변부터 개선할 수 있습니다.
+        </div>
+      </div>
+
+      <div class="faq-item px-6 py-5">
+        <button class="faq-toggle flex w-full items-center justify-between text-left">
+          <span class="pr-4 font-semibold text-slate-900">설치형(On-premise)도 가능한가요?</span>
+          <span class="faq-icon shrink-0 text-xl text-gray-400 transition-transform">+</span>
+        </button>
+        <div class="faq-answer text-sm leading-relaxed text-gray-600">
+          초기에는 SaaS형 도입을 우선 지원하며, 보안 요구사항이 높은 기업이나 기관은 설치형 또는 전용 환경 구성을 Enterprise 플랜에서 별도 협의할 수 있습니다.
+        </div>
+      </div>
+
+      <div class="faq-item px-6 py-5">
+        <button class="faq-toggle flex w-full items-center justify-between text-left">
+          <span class="pr-4 font-semibold text-slate-900">요금은 어떻게 산정되나요?</span>
+          <span class="faq-icon shrink-0 text-xl text-gray-400 transition-transform">+</span>
+        </button>
+        <div class="faq-answer text-sm leading-relaxed text-gray-600">
+          기업 규모, 월 질문량, 학습 데이터 규모, 보안 요구사항, 연동 범위에 따라 달라집니다.
+          기본 SaaS 플랜(Starter/Growth)과 별도 구축형 플랜(Enterprise)을 구분해 제안합니다.
+        </div>
+      </div>
+
+      <div class="faq-item px-6 py-5">
+        <button class="faq-toggle flex w-full items-center justify-between text-left">
+          <span class="pr-4 font-semibold text-slate-900">도입까지 얼마나 걸리나요?</span>
+          <span class="faq-icon shrink-0 text-xl text-gray-400 transition-transform">+</span>
+        </button>
+        <div class="faq-answer text-sm leading-relaxed text-gray-600">
+          프로젝트 생성부터 지식 데이터 연결, 챗봇 설정, 테스트 검수까지 일반적으로 1~2주 내에 진행됩니다.
+          데이터 규모와 연동 범위에 따라 일정은 달라질 수 있으며, 무료 진단 상담에서 예상 일정을 안내해 드립니다.
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<section class="relative overflow-hidden bg-gradient-to-br from-slate-50 via-blue-50 to-indigo-50 py-20">
+  <div class="dot-grid pointer-events-none absolute inset-0 opacity-[0.04]"></div>
+  <div class="relative mx-auto max-w-2xl px-4 text-center">
+    <h2 class="text-2xl font-extrabold text-slate-900 sm:text-3xl">더 궁금한 점이 있다면 문의해 주세요.</h2>
+    <div class="mt-8 flex flex-col items-center justify-center gap-4 sm:flex-row">
+      <a href="contact.html" class="w-full rounded-full bg-slate-900 px-8 py-3 text-center text-sm font-semibold text-white hover:bg-slate-800 sm:w-auto">문의하기</a>
+      <a href="pricing.html" class="w-full rounded-full border border-gray-300 bg-white px-8 py-3 text-center text-sm font-semibold text-slate-700 hover:bg-gray-50 sm:w-auto">요금 보기</a>
+    </div>
+  </div>
+</section>
+
+<div id="site-footer"></div>
+<script src="assets/site.js" data-base="." data-page="resources"></script>
+</body>
+</html>

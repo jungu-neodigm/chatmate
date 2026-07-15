@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ChatMate | 웹사이트를 AI 대화 경험으로 전환하세요</title>
+<script src="https://cdn.tailwindcss.com"></script>
+<link rel="stylesheet" href="assets/site.css">
+</head>
+<body class="bg-white text-slate-900 antialiased">
+
+<div id="site-header"></div>
+
+<!-- HERO -->
+<section class="relative overflow-hidden bg-gradient-to-br from-slate-50 via-blue-50 to-indigo-50">
+  <div class="dot-grid pointer-events-none absolute inset-0 opacity-[0.04]"></div>
+  <div class="relative mx-auto max-w-5xl px-4 pb-24 pt-20 text-center sm:px-6 sm:pt-28 sm:pb-32">
+    <div class="mb-6 inline-flex items-center gap-2 rounded-full border border-blue-200 bg-white/70 px-4 py-1.5 text-xs font-medium text-blue-700 backdrop-blur-sm">
+      AI 챗봇 · RAG 검색 · 고객지원 자동화 · 전환 유도
+    </div>
+    <h1 class="text-4xl font-extrabold leading-[1.15] tracking-tight text-slate-900 sm:text-6xl lg:text-7xl lg:leading-[1.05]">
+      웹사이트를<br>
+      <span class="text-blue-600">AI 대화 경험</span>으로 전환하세요.
+    </h1>
+    <p class="mx-auto mt-6 max-w-2xl text-base leading-relaxed text-gray-600 sm:text-xl">
+      AI 챗봇이 웹사이트, 문서, FAQ, 상품 정보에 흩어진 데이터를 이해하고<br class="hidden sm:block">
+      고객의 질문 의도에 맞춰 답변, 추천, 상담 연결, 예약, 신청, 구매까지 안내합니다.
+    </p>
+    <div class="mt-10 flex flex-col items-center justify-center gap-4 sm:flex-row">
+      <a href="contact.html" class="w-full rounded-full bg-slate-900 px-8 py-3 text-center text-sm font-semibold text-white hover:bg-slate-800 sm:w-auto">데모 신청하기</a>
+      <a href="use-cases/index.html" class="w-full rounded-full border border-gray-300 bg-white px-8 py-3 text-center text-sm font-semibold text-slate-700 hover:bg-gray-50 sm:w-auto">활용 사례 보기</a>
+    </div>
+  </div>
+</section>
+
+<!-- TARGET / USE CASE STRIP -->
+<section class="border-y border-gray-100 bg-white py-8">
+  <div class="mx-auto max-w-5xl px-4 text-center">
+    <p class="text-xs font-semibold uppercase tracking-widest text-gray-400">Where ChatMate Fits</p>
+    <p class="mt-3 text-sm text-gray-500">이커머스, SaaS, 커머스, 병원·교육·프랜차이즈, 내부 지식 검색, 공공기관까지 업종을 가리지 않고 적용됩니다.</p>
+    <div class="mt-5 flex flex-wrap items-center justify-center gap-x-6 gap-y-2 text-sm font-medium text-gray-500">
+      <span>이커머스</span><span>SaaS/B2B</span><span>병원</span><span>교육</span><span>프랜차이즈</span>
+      <span>금융</span><span>제조</span><span>내부 업무</span><span>공공기관</span>
+    </div>
+  </div>
+</section>
+
+<!-- PROBLEM / SOLUTION -->
+<section id="features" class="py-20 sm:py-24">
+  <div class="mx-auto max-w-5xl px-4 sm:px-6">
+    <div class="grid gap-12 lg:grid-cols-2 lg:gap-16">
+      <div>
+        <p class="mb-3 text-xs font-bold uppercase tracking-widest text-rose-500">The Problem</p>
+        <h3 class="mb-4 text-2xl font-extrabold leading-snug text-slate-900 sm:text-3xl">
+          정보는 많지만,<br>고객은 원하는 답을 찾기 어렵습니다.
+        </h3>
+        <p class="mb-6 text-gray-600 leading-relaxed">
+          웹사이트에는 상품 정보, 서비스 소개, FAQ, 도움말, 공지사항, 약관, 매뉴얼이 흩어져 있습니다.
+          고객은 메뉴와 검색창을 오가며 원하는 정보를 찾아야 하고, 상담팀은 반복 문의에 많은 시간을 사용합니다.
+        </p>
+        <ul class="space-y-3 text-sm text-gray-600">
+          <li class="flex gap-2"><span class="mt-0.5 text-rose-400">✕</span>고객이 메뉴와 검색창을 오가며 정보를 탐색함</li>
+          <li class="flex gap-2"><span class="mt-0.5 text-rose-400">✕</span>FAQ와 문서가 많아도 원하는 답을 찾기 어려움</li>
+          <li class="flex gap-2"><span class="mt-0.5 text-rose-400">✕</span>상담팀은 반복 문의에 많은 시간을 사용함</li>
+          <li class="flex gap-2"><span class="mt-0.5 text-rose-400">✕</span>일반 AI 챗봇은 근거 없이 임의로 답변할 수 있음</li>
+        </ul>
+      </div>
+      <div class="rounded-2xl border border-emerald-100 bg-emerald-50/50 p-8">
+        <p class="mb-3 text-xs font-bold uppercase tracking-widest text-emerald-600">The Solution</p>
+        <h3 class="mb-4 text-2xl font-extrabold leading-snug text-slate-900 sm:text-3xl">
+          AI가 고객 의도를 이해하고,<br>가장 알맞은 다음 행동을 안내합니다.
+        </h3>
+        <p class="mb-6 text-gray-600 leading-relaxed">
+          등록된 웹사이트, 문서, FAQ, 상품 데이터, 운영자가 승인한 답변지침을 기반으로
+          고객 질문에 답변하고, 필요한 경우 상담, 예약, 신청, 구매 등 다음 행동으로 연결합니다.
+        </p>
+        <ul class="space-y-3 text-sm text-gray-700">
+          <li class="flex gap-2"><span class="mt-0.5 text-emerald-500">✓</span>의도 기반 AI 검색 + RAG 답변</li>
+          <li class="flex gap-2"><span class="mt-0.5 text-emerald-500">✓</span>답변마다 출처를 함께 제공</li>
+          <li class="flex gap-2"><span class="mt-0.5 text-emerald-500">✓</span>근거 부족 시 안전한 fallback</li>
+          <li class="flex gap-2"><span class="mt-0.5 text-emerald-500">✓</span>상담·예약·신청·구매로 자연스러운 전환</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CORE FEATURES PREVIEW -->
+<section class="bg-slate-50 py-20 sm:py-24">
+  <div class="mx-auto max-w-6xl px-4 sm:px-6">
+    <div class="mb-14 text-center">
+      <p class="mb-3 text-xs font-bold uppercase tracking-widest text-blue-600">Core Features</p>
+      <h2 class="text-3xl font-extrabold text-slate-900 sm:text-4xl">AI 챗봇 운영에 필요한 기능을 한 곳에서.</h2>
+    </div>
+    <div class="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3">
+      <div class="rounded-2xl border border-gray-100 bg-white p-7 shadow-sm">
+        <h3 class="mb-2 text-lg font-bold text-slate-900">지식 데이터 연결</h3>
+        <p class="text-sm leading-relaxed text-gray-500">웹사이트, FAQ, 문서, 상품 정보, 매뉴얼을 연결합니다.</p>
+      </div>
+      <div class="rounded-2xl border border-gray-100 bg-white p-7 shadow-sm">
+        <h3 class="mb-2 text-lg font-bold text-slate-900">의도 기반 AI 검색</h3>
+        <p class="text-sm leading-relaxed text-gray-500">사용자의 질문 목적을 파악하고 관련 지식을 검색합니다.</p>
+      </div>
+      <div class="rounded-2xl border border-gray-100 bg-white p-7 shadow-sm">
+        <h3 class="mb-2 text-lg font-bold text-slate-900">출처 기반 답변</h3>
+        <p class="text-sm leading-relaxed text-gray-500">답변 근거가 되는 페이지나 문서를 함께 제공합니다.</p>
+      </div>
+      <div class="rounded-2xl border border-gray-100 bg-white p-7 shadow-sm">
+        <h3 class="mb-2 text-lg font-bold text-slate-900">브랜드 톤 관리</h3>
+        <p class="text-sm leading-relaxed text-gray-500">기업별 말투, 답변 길이, 금지 표현, 응대 기준을 설정합니다.</p>
+      </div>
+      <div class="rounded-2xl border border-gray-100 bg-white p-7 shadow-sm">
+        <h3 class="mb-2 text-lg font-bold text-slate-900">상담/예약/구매 연결</h3>
+        <p class="text-sm leading-relaxed text-gray-500">답변 이후 고객의 다음 행동으로 자연스럽게 연결합니다.</p>
+      </div>
+      <div class="rounded-2xl border border-gray-100 bg-white p-7 shadow-sm">
+        <h3 class="mb-2 text-lg font-bold text-slate-900">대화 분석</h3>
+        <p class="text-sm leading-relaxed text-gray-500">실패 질문, 반복 질문, 부정 평가, 전환 클릭을 분석합니다.</p>
+      </div>
+    </div>
+    <div class="mt-10 text-center">
+      <a href="features.html" class="inline-block rounded-full border border-gray-300 bg-white px-6 py-2.5 text-sm font-semibold text-slate-700 hover:bg-gray-50">기능 자세히 보기 →</a>
+    </div>
+  </div>
+</section>
+
+<!-- HOW IT WORKS PREVIEW -->
+<section id="how-it-works" class="py-20 sm:py-24">
+  <div class="mx-auto max-w-6xl px-4 sm:px-6">
+    <div class="mb-16 text-center">
+      <p class="mb-3 text-xs font-bold uppercase tracking-widest text-blue-600">How It Works</p>
+      <h2 class="text-3xl font-extrabold text-slate-900 sm:text-4xl">도입부터 운영 개선까지, 단계별로 진행합니다.</h2>
+    </div>
+    <div class="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-4">
+      <div class="group relative overflow-hidden rounded-2xl border border-gray-100 bg-white p-7 shadow-sm transition-all hover:-translate-y-1 hover:shadow-lg">
+        <div class="absolute -right-2 -top-2 text-[5rem] font-black leading-none text-gray-50 group-hover:text-gray-100">01</div>
+        <div class="relative mb-6 inline-flex h-14 w-14 items-center justify-center rounded-2xl bg-gradient-to-br from-blue-500 to-indigo-600 text-white shadow-lg">
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.8"><path stroke-linecap="round" stroke-linejoin="round" d="M12 4v16m8-8H4"/></svg>
+        </div>
+        <h3 class="relative mb-2 text-lg font-bold text-slate-900">프로젝트 생성</h3>
+        <p class="relative text-sm leading-relaxed text-gray-500">브랜드명, 웹사이트 주소, 허용 도메인, 관리자 계정을 등록합니다.</p>
+      </div>
+      <div class="group relative overflow-hidden rounded-2xl border border-gray-100 bg-white p-7 shadow-sm transition-all hover:-translate-y-1 hover:shadow-lg">
+        <div class="absolute -right-2 -top-2 text-[5rem] font-black leading-none text-gray-50 group-hover:text-gray-100">02</div>
+        <div class="relative mb-6 inline-flex h-14 w-14 items-center justify-center rounded-2xl bg-gradient-to-br from-indigo-500 to-purple-600 text-white shadow-lg">
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.8"><path stroke-linecap="round" stroke-linejoin="round" d="M12 4.5v15m7.5-7.5h-15"/></svg>
+        </div>
+        <h3 class="relative mb-2 text-lg font-bold text-slate-900">지식 데이터 연결</h3>
+        <p class="relative text-sm leading-relaxed text-gray-500">웹사이트, 문서, FAQ, 상품 정보를 등록해 학습 기반을 만듭니다.</p>
+      </div>
+      <div class="group relative overflow-hidden rounded-2xl border border-gray-100 bg-white p-7 shadow-sm transition-all hover:-translate-y-1 hover:shadow-lg">
+        <div class="absolute -right-2 -top-2 text-[5rem] font-black leading-none text-gray-50 group-hover:text-gray-100">03</div>
+        <div class="relative mb-6 inline-flex h-14 w-14 items-center justify-center rounded-2xl bg-gradient-to-br from-emerald-500 to-teal-600 text-white shadow-lg">
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.8"><path stroke-linecap="round" stroke-linejoin="round" d="M9 12.75L11.25 15 15 9.75M21 12a9 9 0 11-18 0 9 9 0 0118 0z"/></svg>
+        </div>
+        <h3 class="relative mb-2 text-lg font-bold text-slate-900">챗봇 설정 &amp; 검수</h3>
+        <p class="relative text-sm leading-relaxed text-gray-500">화면, 답변지침, 추천질문을 설정하고 테스트 질문으로 검수합니다.</p>
+      </div>
+      <div class="group relative overflow-hidden rounded-2xl border border-gray-100 bg-white p-7 shadow-sm transition-all hover:-translate-y-1 hover:shadow-lg">
+        <div class="absolute -right-2 -top-2 text-[5rem] font-black leading-none text-gray-50 group-hover:text-gray-100">04</div>
+        <div class="relative mb-6 inline-flex h-14 w-14 items-center justify-center rounded-2xl bg-gradient-to-br from-amber-500 to-orange-600 text-white shadow-lg">
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.8"><path stroke-linecap="round" stroke-linejoin="round" d="M3 13.5l7.5-7.5 4.5 4.5 6-6M21 4.5v6h-6"/></svg>
+        </div>
+        <h3 class="relative mb-2 text-lg font-bold text-slate-900">배포 &amp; 운영 개선</h3>
+        <p class="relative text-sm leading-relaxed text-gray-500">위젯을 배포하고, 질문 데이터를 분석해 지속적으로 개선합니다.</p>
+      </div>
+    </div>
+    <div class="mt-10 text-center">
+      <a href="how-it-works.html" class="inline-block rounded-full border border-gray-300 bg-white px-6 py-2.5 text-sm font-semibold text-slate-700 hover:bg-gray-50">8단계 상세 흐름 보기 →</a>
+    </div>
+  </div>
+</section>
+
+<!-- USE CASES OVERVIEW -->
+<section class="bg-slate-50 py-20 sm:py-24">
+  <div class="mx-auto max-w-6xl px-4 sm:px-6">
+    <div class="mb-14 text-center">
+      <p class="mb-3 text-xs font-bold uppercase tracking-widest text-blue-600">Use Cases</p>
+      <h2 class="text-3xl font-extrabold text-slate-900 sm:text-4xl">고객지원부터 내부 지식 검색까지.</h2>
+      <p class="mx-auto mt-4 max-w-2xl text-gray-500">
+        AI 챗봇은 단순 FAQ 자동응답을 넘어 고객의 탐색, 비교, 추천, 지원, 상담 전환, 내부 업무 지원까지 다양한 대화 경험으로 확장할 수 있습니다.
+      </p>
+    </div>
+    <div class="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3">
+      <a href="use-cases/product-discovery.html" class="group rounded-2xl border border-gray-100 bg-white p-7 shadow-sm transition hover:-translate-y-1 hover:shadow-lg">
+        <p class="mb-3 text-2xl">🛍️</p>
+        <h3 class="mb-2 text-lg font-bold text-slate-900">상품/서비스 탐색</h3>
+        <p class="mb-4 text-sm leading-relaxed text-gray-500">조건과 관심사를 파악해 적합한 상품과 서비스를 추천합니다.</p>
+        <span class="text-sm font-semibold text-blue-600 group-hover:underline">자세히 보기 →</span>
+      </a>
+      <a href="use-cases/customer-support.html" class="group rounded-2xl border border-gray-100 bg-white p-7 shadow-sm transition hover:-translate-y-1 hover:shadow-lg">
+        <p class="mb-3 text-2xl">🎧</p>
+        <h3 class="mb-2 text-lg font-bold text-slate-900">고객지원 자동화</h3>
+        <p class="mb-4 text-sm leading-relaxed text-gray-500">반복 문의는 AI가 먼저 응대하고, 상담팀은 중요한 문제에 집중합니다.</p>
+        <span class="text-sm font-semibold text-blue-600 group-hover:underline">자세히 보기 →</span>
+      </a>
+      <a href="use-cases/b2b-lead-generation.html" class="group rounded-2xl border border-gray-100 bg-white p-7 shadow-sm transition hover:-translate-y-1 hover:shadow-lg">
+        <p class="mb-3 text-2xl">💼</p>
+        <h3 class="mb-2 text-lg font-bold text-slate-900">B2B 상담 및 리드 수집</h3>
+        <p class="mb-4 text-sm leading-relaxed text-gray-500">방문자의 질문을 상담과 데모 요청으로 연결합니다.</p>
+        <span class="text-sm font-semibold text-blue-600 group-hover:underline">자세히 보기 →</span>
+      </a>
+      <a href="use-cases/knowledge-support.html" class="group rounded-2xl border border-gray-100 bg-white p-7 shadow-sm transition hover:-translate-y-1 hover:shadow-lg">
+        <p class="mb-3 text-2xl">📚</p>
+        <h3 class="mb-2 text-lg font-bold text-slate-900">지식 지원 및 도움</h3>
+        <p class="mb-4 text-sm leading-relaxed text-gray-500">흩어진 지식과 문서를 대화로 검색하게 합니다.</p>
+        <span class="text-sm font-semibold text-blue-600 group-hover:underline">자세히 보기 →</span>
+      </a>
+      <a href="use-cases/internal-knowledge-search.html" class="group rounded-2xl border border-gray-100 bg-white p-7 shadow-sm transition hover:-translate-y-1 hover:shadow-lg">
+        <p class="mb-3 text-2xl">🗂️</p>
+        <h3 class="mb-2 text-lg font-bold text-slate-900">내부 지식 검색</h3>
+        <p class="mb-4 text-sm leading-relaxed text-gray-500">직원들이 사내 지식을 더 빠르게 찾도록 돕습니다.</p>
+        <span class="text-sm font-semibold text-blue-600 group-hover:underline">자세히 보기 →</span>
+      </a>
+      <a href="use-cases/public-sector.html" class="group rounded-2xl border border-gray-100 bg-white p-7 shadow-sm transition hover:-translate-y-1 hover:shadow-lg">
+        <p class="mb-3 text-2xl">🏛️</p>
+        <h3 class="mb-2 text-lg font-bold text-slate-900">공공기관/관공서 안내</h3>
+        <p class="mb-4 text-sm leading-relaxed text-gray-500">공공기관 홈페이지 정보를 출처 기반 AI 안내로 전환합니다.</p>
+        <span class="text-sm font-semibold text-blue-600 group-hover:underline">자세히 보기 →</span>
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- AI ENGINE OVERVIEW -->
+<section class="py-20 sm:py-24">
+  <div class="mx-auto max-w-5xl px-4 sm:px-6">
+    <div class="mb-16 text-center">
+      <p class="mb-3 text-xs font-bold uppercase tracking-widest text-blue-600">Under the Hood</p>
+      <h2 class="text-3xl font-extrabold text-slate-900 sm:text-4xl">운영자가 관리하고, <span class="text-blue-600">AI가 출처 기반으로 답변합니다.</span></h2>
+    </div>
+    <div class="relative hidden lg:block">
+      <div class="grid grid-cols-3 items-center gap-6">
+        <div class="space-y-16">
+          <div class="engine-node rounded-xl border border-gray-100 bg-white p-5 text-right shadow-sm transition-all">
+            <p class="font-bold text-slate-900">데이터 수집</p>
+            <p class="mt-1 text-sm text-gray-500">웹사이트, 문서, FAQ, 상품 데이터 연결</p>
+          </div>
+          <div class="engine-node rounded-xl border border-gray-100 bg-white p-5 text-right shadow-sm transition-all">
+            <p class="font-bold text-slate-900">RAG 검색</p>
+            <p class="mt-1 text-sm text-gray-500">등록된 지식 데이터에서 관련 근거 우선 검색</p>
+          </div>
+          <div class="engine-node rounded-xl border border-gray-100 bg-white p-5 text-right shadow-sm transition-all">
+            <p class="font-bold text-slate-900">답변지침 적용</p>
+            <p class="mt-1 text-sm text-gray-500">브랜드별 답변 범위, 말투, 금지 정책 적용</p>
+          </div>
+        </div>
+        <div class="flex justify-center">
+          <div class="flex h-32 w-32 flex-col items-center justify-center rounded-2xl bg-slate-900 text-center text-white shadow-xl">
+            <svg xmlns="http://www.w3.org/2000/svg" class="mb-1 h-7 w-7 text-blue-400" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5"><path stroke-linecap="round" stroke-linejoin="round" d="M9.813 15.904L9 18.75l-.813-2.846a4.5 4.5 0 00-3.09-3.09L2.25 12l2.846-.813a4.5 4.5 0 003.09-3.09L9 5.25l.813 2.846a4.5 4.5 0 003.09 3.09L15.75 12l-2.846.813a4.5 4.5 0 00-3.09 3.09zM18.259 8.715L18 9.75l-.259-1.035a3.375 3.375 0 00-2.455-2.456L14.25 6l1.036-.259a3.375 3.375 0 002.455-2.456L18 2.25l.259 1.035a3.375 3.375 0 002.456 2.456L21.75 6l-1.035.259a3.375 3.375 0 00-2.456 2.456z"/></svg>
+            <p class="text-xs font-bold leading-tight">RAG<br>ENGINE</p>
+          </div>
+        </div>
+        <div class="space-y-16">
+          <div class="engine-node rounded-xl border border-gray-100 bg-white p-5 shadow-sm transition-all">
+            <p class="font-bold text-slate-900">브랜드 톤</p>
+            <p class="mt-1 text-sm text-gray-500">기업별 말투와 응대 기준에 맞춘 답변</p>
+          </div>
+          <div class="engine-node rounded-xl border border-gray-100 bg-white p-5 shadow-sm transition-all">
+            <p class="font-bold text-slate-900">출처 표시</p>
+            <p class="mt-1 text-sm text-gray-500">가장 정확한 페이지 또는 문서 출처 제공</p>
+          </div>
+          <div class="engine-node rounded-xl border border-gray-100 bg-white p-5 shadow-sm transition-all">
+            <p class="font-bold text-slate-900">대화 분석 개선</p>
+            <p class="mt-1 text-sm text-gray-500">RAG 실패, 부정 평가, 반복 질문을 운영자가 보강</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:hidden">
+      <div class="rounded-xl border border-gray-100 bg-white p-5 shadow-sm"><p class="font-bold text-slate-900">데이터 수집</p><p class="mt-1 text-sm text-gray-500">웹사이트, 문서, FAQ, 상품 데이터 연결</p></div>
+      <div class="rounded-xl border border-gray-100 bg-white p-5 shadow-sm"><p class="font-bold text-slate-900">RAG 검색</p><p class="mt-1 text-sm text-gray-500">등록된 지식 데이터에서 관련 근거 우선 검색</p></div>
+      <div class="rounded-xl border border-gray-100 bg-white p-5 shadow-sm"><p class="font-bold text-slate-900">답변지침 적용</p><p class="mt-1 text-sm text-gray-500">브랜드별 답변 범위, 말투, 금지 정책 적용</p></div>
+      <div class="rounded-xl border border-gray-100 bg-white p-5 shadow-sm"><p class="font-bold text-slate-900">브랜드 톤</p><p class="mt-1 text-sm text-gray-500">기업별 말투와 응대 기준에 맞춘 답변</p></div>
+      <div class="rounded-xl border border-gray-100 bg-white p-5 shadow-sm"><p class="font-bold text-slate-900">출처 표시</p><p class="mt-1 text-sm text-gray-500">가장 정확한 페이지 또는 문서 출처 제공</p></div>
+      <div class="rounded-xl border border-gray-100 bg-white p-5 shadow-sm"><p class="font-bold text-slate-900">대화 분석 개선</p><p class="mt-1 text-sm text-gray-500">RAG 실패, 부정 평가, 반복 질문을 운영자가 보강</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- SECURITY PREVIEW -->
+<section id="security" class="bg-[#0F1A2E] py-20 text-white sm:py-24">
+  <div class="mx-auto max-w-5xl px-4 text-center sm:px-6">
+    <div class="mx-auto mb-5 inline-flex h-14 w-14 items-center justify-center rounded-2xl bg-emerald-500/10">
+      <svg xmlns="http://www.w3.org/2000/svg" class="h-7 w-7 text-emerald-400" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.6"><path stroke-linecap="round" stroke-linejoin="round" d="M16.5 10.5V6.75a4.5 4.5 0 10-9 0v3.75m-.75 11.25h10.5a2.25 2.25 0 002.25-2.25v-6.75a2.25 2.25 0 00-2.25-2.25H6.75a2.25 2.25 0 00-2.25 2.25v6.75a2.25 2.25 0 002.25 2.25z"/></svg>
+    </div>
+    <h2 class="text-2xl font-extrabold leading-snug sm:text-4xl">
+      브랜드와 고객 데이터를<br><span class="text-emerald-400">안전하게 보호하는 AI 운영 구조.</span>
+    </h2>
+    <p class="mx-auto mt-4 max-w-xl text-gray-400">
+      AI가 아무 답이나 생성하지 않도록 지식 데이터, 답변지침, 금지 정책, 개인정보 처리 기준, 권한 관리, 감사 로그를 제공합니다.
+    </p>
+    <div class="mt-10 grid gap-5 sm:grid-cols-3">
+      <div class="rounded-xl border border-white/10 bg-white/[0.03] p-6 text-left">
+        <p class="mb-2 font-bold">출처 기반 답변</p>
+        <p class="text-sm leading-relaxed text-gray-400">근거가 부족하면 임의로 답변하지 않습니다.</p>
+      </div>
+      <div class="rounded-xl border border-white/10 bg-white/[0.03] p-6 text-left">
+        <p class="mb-2 font-bold">개인정보 보호</p>
+        <p class="text-sm leading-relaxed text-gray-400">개인정보가 포함된 질문은 저장·응답하지 않습니다.</p>
+      </div>
+      <div class="rounded-xl border border-white/10 bg-white/[0.03] p-6 text-left">
+        <p class="mb-2 font-bold">권한 &amp; 감사 로그</p>
+        <p class="text-sm leading-relaxed text-gray-400">역할별 권한 분리와 주요 이벤트 기록을 제공합니다.</p>
+      </div>
+    </div>
+    <div class="mt-10">
+      <a href="security.html" class="inline-block rounded-full border border-white/20 px-6 py-2.5 text-sm font-semibold text-white hover:bg-white/10">보안 &amp; 거버넌스 자세히 보기 →</a>
+    </div>
+  </div>
+</section>
+
+<!-- PRICING PREVIEW -->
+<section id="pricing" class="py-20 sm:py-24">
+  <div class="mx-auto max-w-6xl px-4 text-center sm:px-6">
+    <p class="mb-3 text-xs font-bold uppercase tracking-widest text-blue-600">Pricing</p>
+    <h2 class="mb-3 text-3xl font-extrabold text-slate-900 sm:text-4xl">기업 규모와 운영 방식에 맞춰 선택하세요.</h2>
+    <p class="mx-auto mb-14 max-w-2xl text-gray-500">SaaS형 빠른 도입부터 설치형·전용 환경 구성까지 지원합니다.</p>
+    <div class="grid gap-6 md:grid-cols-2 lg:grid-cols-4">
+      <div class="rounded-2xl border border-gray-200 bg-white p-6 text-left"><p class="text-sm font-bold text-gray-500">Free Diagnosis</p><p class="mt-1 text-2xl font-extrabold text-slate-900">무료</p></div>
+      <div class="rounded-2xl border border-gray-200 bg-white p-6 text-left"><p class="text-sm font-bold text-gray-500">Starter</p><p class="mt-1 text-2xl font-extrabold text-slate-900">월 29만원~</p></div>
+      <div class="rounded-2xl border-2 border-blue-600 bg-white p-6 text-left"><p class="text-sm font-bold text-blue-600">Growth</p><p class="mt-1 text-2xl font-extrabold text-slate-900">월 79만원~</p></div>
+      <div class="rounded-2xl border border-gray-200 bg-white p-6 text-left"><p class="text-sm font-bold text-gray-500">Enterprise</p><p class="mt-1 text-2xl font-extrabold text-slate-900">별도 협의</p></div>
+    </div>
+    <div class="mt-10">
+      <a href="pricing.html" class="inline-block rounded-full bg-slate-900 px-6 py-2.5 text-sm font-semibold text-white hover:bg-slate-800">요금제 자세히 보기 →</a>
+    </div>
+  </div>
+</section>
+
+<!-- FAQ PREVIEW -->
+<section class="bg-slate-50 py-20 sm:py-24">
+  <div class="mx-auto max-w-3xl px-4 sm:px-6">
+    <p class="mb-3 text-center text-xs font-bold uppercase tracking-widest text-blue-600">FAQ</p>
+    <h2 class="mb-12 text-center text-3xl font-extrabold text-slate-900 sm:text-4xl">자주 묻는 질문</h2>
+    <div class="divide-y divide-gray-200 rounded-2xl border border-gray-200 bg-white">
+      <div class="faq-item px-6 py-5">
+        <button class="faq-toggle flex w-full items-center justify-between text-left">
+          <span class="pr-4 font-semibold text-slate-900">일반 챗봇과 무엇이 다른가요?</span>
+          <span class="faq-icon shrink-0 text-xl text-gray-400 transition-transform">+</span>
+        </button>
+        <div class="faq-answer text-sm leading-relaxed text-gray-600">
+          단순 GPT 채팅창이 아니라 고객사 데이터 기반의 AI 상담 채널입니다. 승인된 콘텐츠와 출처 기반으로 답변하고, 웹사이트 탐색, 고객지원, 상품 추천, 상담 연결까지 연결합니다.
+        </div>
+      </div>
+      <div class="faq-item px-6 py-5">
+        <button class="faq-toggle flex w-full items-center justify-between text-left">
+          <span class="pr-4 font-semibold text-slate-900">우리 웹사이트 데이터를 모두 학습해야 하나요?</span>
+          <span class="faq-icon shrink-0 text-xl text-gray-400 transition-transform">+</span>
+        </button>
+        <div class="faq-answer text-sm leading-relaxed text-gray-600">
+          아닙니다. 사이트맵을 기준으로 실제 답변 근거가 되는 페이지를 우선 선별하고, 불필요한 페이지는 제외합니다.
+        </div>
+      </div>
+      <div class="faq-item px-6 py-5">
+        <button class="faq-toggle flex w-full items-center justify-between text-left">
+          <span class="pr-4 font-semibold text-slate-900">B2C와 B2B 모두 사용할 수 있나요?</span>
+          <span class="faq-icon shrink-0 text-xl text-gray-400 transition-transform">+</span>
+        </button>
+        <div class="faq-answer text-sm leading-relaxed text-gray-600">
+          네. 이커머스에는 상품 추천과 구매 안내를, B2B에는 서비스 비교와 데모 예약을, 공공/기관에는 민원·행정정보 안내를 지원합니다.
+        </div>
+      </div>
+    </div>
+    <div class="mt-10 text-center">
+      <a href="faq.html" class="inline-block rounded-full border border-gray-300 bg-white px-6 py-2.5 text-sm font-semibold text-slate-700 hover:bg-gray-50">FAQ 전체 보기 →</a>
+    </div>
+  </div>
+</section>
+
+<!-- FINAL CTA -->
+<section class="relative overflow-hidden bg-gradient-to-br from-slate-50 via-blue-50 to-indigo-50 py-20 sm:py-28">
+  <div class="dot-grid pointer-events-none absolute inset-0 opacity-[0.04]"></div>
+  <div class="relative mx-auto max-w-3xl px-4 text-center sm:px-6">
+    <h2 class="text-3xl font-extrabold leading-tight text-slate-900 sm:text-5xl">
+      지금 <span class="text-blue-600">AI 챗봇</span>을<br>도입해 보세요.
+    </h2>
+    <p class="mx-auto mt-5 max-w-xl text-base leading-relaxed text-gray-600 sm:text-lg">
+      웹사이트 구조와 보유 데이터를 기준으로<br class="hidden sm:block">
+      도입 가능 범위와 예상 운영 방식을 함께 검토해 드립니다.
+    </p>
+    <div class="mt-9 flex flex-col items-center justify-center gap-4 sm:flex-row">
+      <a href="contact.html" class="w-full rounded-full bg-slate-900 px-8 py-3 text-center text-sm font-semibold text-white hover:bg-slate-800 sm:w-auto">데모 예약 / 문의하기</a>
+      <a href="pricing.html" class="w-full rounded-full border border-gray-300 bg-white px-8 py-3 text-center text-sm font-semibold text-slate-700 hover:bg-gray-50 sm:w-auto">요금 보기</a>
+    </div>
+  </div>
+</section>
+
+<div id="site-footer"></div>
+<script src="assets/site.js" data-base="." data-page="home"></script>
+</body>
+</html>

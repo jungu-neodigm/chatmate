@@ -1,0 +1,13 @@
+.DS_Store
+Thumbs.db
+node_modules/
+*.log
+
+# Editor/IDE
+.vscode/
+.idea/
+*.swp
+
+# OS/archive artifacts
+__MACOSX/
+*.zip

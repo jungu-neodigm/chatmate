@@ -1,0 +1,42 @@
+* { font-family: 'Pretendard', -apple-system, BlinkMacSystemFont, 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif; }
+html { scroll-behavior: smooth; }
+
+.dot-grid {
+  background-image: radial-gradient(circle, #1B2A4A 1px, transparent 1px);
+  background-size: 24px 24px;
+}
+
+.faq-item.open .faq-icon { transform: rotate(45deg); }
+.faq-item.open .faq-answer { max-height: 600px; padding-top: 0.75rem; }
+.faq-answer { max-height: 0; overflow: hidden; transition: max-height 0.3s ease, padding 0.3s ease; }
+
+.mobile-menu { max-height: 0; overflow: hidden; transition: max-height 0.4s ease; }
+.mobile-menu.open { max-height: 600px; }
+
+.engine-node:hover { transform: translateY(-2px); box-shadow: 0 10px 25px -5px rgba(0,0,0,0.08); }
+
+.nav-link { position: relative; }
+.nav-link.active { color: #1d4ed8; }
+.nav-link.active::after {
+  content: "";
+  position: absolute;
+  left: 0; right: 0; bottom: -20px;
+  height: 2px;
+  background: #2563eb;
+}
+
+/* Centered dropdown: menu is horizontally centered under its trigger via left:50% + translateX(-50%).
+   This transform is defined here (not as a Tailwind utility class) so the show/hide translateY
+   animation below doesn't clobber the horizontal centering. */
+.dropdown-menu {
+  opacity: 0;
+  visibility: hidden;
+  transform: translate(-50%, 4px);
+  transition: opacity 0.15s ease, transform 0.15s ease, visibility 0.15s;
+}
+.dropdown-group:hover .dropdown-menu,
+.dropdown-group:focus-within .dropdown-menu {
+  opacity: 1;
+  visibility: visible;
+  transform: translate(-50%, 0);
+}

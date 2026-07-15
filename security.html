@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>보안 &amp; 거버넌스 | ChatMate</title>
+<script src="https://cdn.tailwindcss.com"></script>
+<link rel="stylesheet" href="assets/site.css">
+</head>
+<body class="bg-white text-slate-900 antialiased">
+
+<div id="site-header"></div>
+
+<section class="relative overflow-hidden bg-[#0F1A2E] py-24 text-white sm:py-28">
+  <div class="relative mx-auto max-w-5xl px-4 text-center sm:px-6">
+    <div class="mx-auto mb-6 inline-flex h-14 w-14 items-center justify-center rounded-2xl bg-emerald-500/10">
+      <svg xmlns="http://www.w3.org/2000/svg" class="h-7 w-7 text-emerald-400" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.6"><path stroke-linecap="round" stroke-linejoin="round" d="M16.5 10.5V6.75a4.5 4.5 0 10-9 0v3.75m-.75 11.25h10.5a2.25 2.25 0 002.25-2.25v-6.75a2.25 2.25 0 00-2.25-2.25H6.75a2.25 2.25 0 00-2.25 2.25v6.75a2.25 2.25 0 002.25 2.25z"/></svg>
+    </div>
+    <div class="mb-4 inline-flex rounded-full border border-white/20 px-4 py-1.5 text-xs font-medium text-gray-300">Security &amp; Governance</div>
+    <h1 class="text-3xl font-extrabold leading-tight sm:text-5xl">
+      브랜드와 고객 데이터를<br><span class="text-emerald-400">안전하게 보호하는 AI 운영 구조.</span>
+    </h1>
+    <p class="mx-auto mt-6 max-w-2xl text-lg leading-relaxed text-gray-400">
+      AI가 아무 답이나 생성하지 않도록 지식 데이터, 답변지침, 금지 정책,<br class="hidden sm:block">
+      개인정보 처리 기준, 권한 관리, 감사 로그를 제공합니다.
+    </p>
+  </div>
+</section>
+
+<section class="py-20 sm:py-24">
+  <div class="mx-auto max-w-5xl px-4 sm:px-6">
+    <div class="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3">
+
+      <div class="rounded-2xl border border-gray-100 bg-white p-7 shadow-sm">
+        <p class="mb-2 text-xs font-bold uppercase tracking-widest text-blue-600">01</p>
+        <h3 class="mb-2 text-lg font-bold text-slate-900">출처 기반 답변</h3>
+        <p class="text-sm leading-relaxed text-gray-500">등록된 RAG 데이터와 직접 Q&amp;A를 기준으로 답변하며, 근거가 부족하면 임의 답변하지 않습니다.</p>
+      </div>
+
+      <div class="rounded-2xl border border-gray-100 bg-white p-7 shadow-sm">
+        <p class="mb-2 text-xs font-bold uppercase tracking-widest text-blue-600">02</p>
+        <h3 class="mb-2 text-lg font-bold text-slate-900">개인정보 보호</h3>
+        <p class="text-sm leading-relaxed text-gray-500">주민등록번호, 전화번호, 주소, 계좌번호 등 개인정보가 포함된 질문은 답변·저장하지 않고 차단 건수만 집계합니다.</p>
+      </div>
+
+      <div class="rounded-2xl border border-gray-100 bg-white p-7 shadow-sm">
+        <p class="mb-2 text-xs font-bold uppercase tracking-widest text-blue-600">03</p>
+        <h3 class="mb-2 text-lg font-bold text-slate-900">브랜드 톤과 답변지침</h3>
+        <p class="text-sm leading-relaxed text-gray-500">기업별 말투, 금지 표현, 답변 길이, 규정 준수 가이드를 프로젝트별로 관리합니다.</p>
+      </div>
+
+      <div class="rounded-2xl border border-gray-100 bg-white p-7 shadow-sm">
+        <p class="mb-2 text-xs font-bold uppercase tracking-widest text-blue-600">04</p>
+        <h3 class="mb-2 text-lg font-bold text-slate-900">도메인 검증</h3>
+        <p class="text-sm leading-relaxed text-gray-500">siteId, Origin, Referer, 허용 도메인을 함께 검증해 승인된 웹사이트에서만 챗봇이 동작하도록 합니다.</p>
+      </div>
+
+      <div class="rounded-2xl border border-gray-100 bg-white p-7 shadow-sm">
+        <p class="mb-2 text-xs font-bold uppercase tracking-widest text-blue-600">05</p>
+        <h3 class="mb-2 text-lg font-bold text-slate-900">프로젝트별 데이터 분리</h3>
+        <p class="text-sm leading-relaxed text-gray-500">고객사/프로젝트별로 지식 데이터와 대화 로그를 분리해 관리합니다.</p>
+      </div>
+
+      <div class="rounded-2xl border border-gray-100 bg-white p-7 shadow-sm">
+        <p class="mb-2 text-xs font-bold uppercase tracking-widest text-blue-600">06</p>
+        <h3 class="mb-2 text-lg font-bold text-slate-900">권한 관리</h3>
+        <p class="text-sm leading-relaxed text-gray-500">운영사 관리자, 고객사 관리자, 운영 담당자 권한을 분리하고 프로젝트별 접근 범위를 제한합니다.</p>
+      </div>
+
+      <div class="rounded-2xl border border-gray-100 bg-white p-7 shadow-sm">
+        <p class="mb-2 text-xs font-bold uppercase tracking-widest text-blue-600">07</p>
+        <h3 class="mb-2 text-lg font-bold text-slate-900">사용량 제한</h3>
+        <p class="text-sm leading-relaxed text-gray-500">프로젝트별 토큰 사용량과 비용 한도를 관리하고, 한도 초과 시 AI 생성을 제한합니다.</p>
+      </div>
+
+      <div class="rounded-2xl border border-gray-100 bg-white p-7 shadow-sm">
+        <p class="mb-2 text-xs font-bold uppercase tracking-widest text-blue-600">08</p>
+        <h3 class="mb-2 text-lg font-bold text-slate-900">감사 로그</h3>
+        <p class="text-sm leading-relaxed text-gray-500">프로젝트 설정 변경, 사용자 승인, 데이터 처리, 위젯 검증 실패 등 주요 이벤트를 기록합니다.</p>
+      </div>
+
+      <div class="rounded-2xl border border-gray-100 bg-white p-7 shadow-sm">
+        <p class="mb-2 text-xs font-bold uppercase tracking-widest text-blue-600">09</p>
+        <h3 class="mb-2 text-lg font-bold text-slate-900">안전한 fallback</h3>
+        <p class="text-sm leading-relaxed text-gray-500">승인된 콘텐츠나 톤 범위를 벗어나는 질문에는 재질문, 추천질문, 상담 연결로 안전하게 안내합니다.</p>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<section class="bg-[#0F1A2E] py-20 text-white sm:py-24">
+  <div class="mx-auto max-w-4xl px-4 text-center sm:px-6">
+    <h2 class="text-2xl font-extrabold sm:text-3xl">규정 준수 &amp; 보안 인증</h2>
+    <div class="mt-8 flex flex-wrap justify-center gap-3">
+      <span class="rounded-full border border-white/10 px-4 py-1.5 text-xs text-gray-300">GDPR compliant</span>
+      <span class="rounded-full border border-white/10 px-4 py-1.5 text-xs text-gray-300">PIPA compliant</span>
+      <span class="rounded-full border border-white/10 px-4 py-1.5 text-xs text-gray-300">데이터 암호화 (전송/저장)</span>
+      <span class="rounded-full border border-white/10 px-4 py-1.5 text-xs text-gray-300">멀티테넌시 아키텍처</span>
+    </div>
+  </div>
+</section>
+
+<section class="relative overflow-hidden bg-gradient-to-br from-slate-50 via-blue-50 to-indigo-50 py-20">
+  <div class="dot-grid pointer-events-none absolute inset-0 opacity-[0.04]"></div>
+  <div class="relative mx-auto max-w-2xl px-4 text-center">
+    <h2 class="text-2xl font-extrabold text-slate-900 sm:text-3xl">보안 요구사항이 있다면 먼저 상담해 보세요.</h2>
+    <div class="mt-8 flex flex-col items-center justify-center gap-4 sm:flex-row">
+      <a href="contact.html" class="w-full rounded-full bg-slate-900 px-8 py-3 text-center text-sm font-semibold text-white hover:bg-slate-800 sm:w-auto">보안 상담 신청</a>
+      <a href="pricing.html" class="w-full rounded-full border border-gray-300 bg-white px-8 py-3 text-center text-sm font-semibold text-slate-700 hover:bg-gray-50 sm:w-auto">Enterprise 플랜 보기</a>
+    </div>
+  </div>
+</section>
+
+<div id="site-footer"></div>
+<script src="assets/site.js" data-base="." data-page="security"></script>
+</body>
+</html>

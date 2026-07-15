@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>요금 | ChatMate</title>
+<script src="https://cdn.tailwindcss.com"></script>
+<link rel="stylesheet" href="assets/site.css">
+</head>
+<body class="bg-white text-slate-900 antialiased">
+
+<div id="site-header"></div>
+
+<section class="relative overflow-hidden bg-gradient-to-br from-slate-50 via-blue-50 to-indigo-50">
+  <div class="dot-grid pointer-events-none absolute inset-0 opacity-[0.04]"></div>
+  <div class="relative mx-auto max-w-5xl px-4 pb-20 pt-20 text-center sm:px-6 sm:pb-28 sm:pt-28">
+    <div class="mb-6 inline-flex rounded-full border border-blue-200 bg-white/70 px-4 py-1.5 text-xs font-medium text-blue-700">Pricing</div>
+    <h1 class="text-4xl font-extrabold leading-tight tracking-tight text-slate-900 sm:text-5xl lg:text-6xl">
+      기업 규모와 운영 방식에<br>맞춰 선택하세요.
+    </h1>
+    <p class="mx-auto mt-6 max-w-2xl text-lg leading-relaxed text-gray-600">
+      SaaS형 빠른 도입부터 설치형·전용 환경 구성까지 지원합니다.<br class="hidden sm:block">
+      데이터 규모, 월 질문량, 보안 요구사항에 따라 요금이 달라질 수 있습니다.
+    </p>
+  </div>
+</section>
+
+<section class="py-20 sm:py-24">
+  <div class="mx-auto max-w-6xl px-4 sm:px-6">
+    <div class="grid gap-8 md:grid-cols-2 lg:grid-cols-4">
+
+      <div class="flex flex-col rounded-2xl border border-gray-200 bg-white p-7 shadow-sm">
+        <p class="mb-1 text-sm font-bold text-gray-500">Free Diagnosis</p>
+        <p class="mb-4 text-3xl font-extrabold text-slate-900">무료</p>
+        <p class="mb-6 flex-1 text-sm leading-relaxed text-gray-500">웹사이트와 보유 데이터를 기준으로 AI 챗봇 적용 가능 범위와 예상 도입 방식을 안내합니다.</p>
+        <ul class="mb-8 space-y-2.5 text-sm text-gray-600">
+          <li class="flex gap-2"><span class="text-emerald-500">✓</span>대표 웹사이트 구조 확인</li>
+          <li class="flex gap-2"><span class="text-emerald-500">✓</span>초기 학습 대상 데이터 검토</li>
+          <li class="flex gap-2"><span class="text-emerald-500">✓</span>예상 질문 유형 정리</li>
+          <li class="flex gap-2"><span class="text-emerald-500">✓</span>도입 방식 상담 &amp; 견적 범위 안내</li>
+        </ul>
+        <a href="contact.html" class="rounded-full bg-slate-900 py-2.5 text-center text-sm font-semibold text-white hover:bg-slate-800">무료 진단 신청</a>
+      </div>
+
+      <div class="flex flex-col rounded-2xl border border-gray-200 bg-white p-7 shadow-sm">
+        <p class="mb-1 text-sm font-bold text-gray-500">Starter</p>
+        <p class="mb-4 text-3xl font-extrabold text-slate-900">월 29만 원<span class="text-base font-medium text-gray-400">부터</span></p>
+        <p class="mb-6 flex-1 text-sm leading-relaxed text-gray-500">소규모 웹사이트와 기본 고객지원 자동화에 적합한 플랜입니다.</p>
+        <ul class="mb-8 space-y-2.5 text-sm text-gray-600">
+          <li class="flex gap-2"><span class="text-emerald-500">✓</span>플로팅 챗봇 위젯</li>
+          <li class="flex gap-2"><span class="text-emerald-500">✓</span>기본 관리자 콘솔</li>
+          <li class="flex gap-2"><span class="text-emerald-500">✓</span>사이트맵 기반 초기 학습</li>
+          <li class="flex gap-2"><span class="text-emerald-500">✓</span>직접 Q&amp;A 등록</li>
+          <li class="flex gap-2"><span class="text-emerald-500">✓</span>추천질문 관리</li>
+          <li class="flex gap-2"><span class="text-emerald-500">✓</span>월 질문량 기본 제공</li>
+        </ul>
+        <a href="contact.html" class="rounded-full border border-gray-300 py-2.5 text-center text-sm font-semibold text-slate-700 hover:bg-gray-50">Starter 문의</a>
+      </div>
+
+      <div class="relative flex flex-col rounded-2xl border-2 border-blue-600 bg-white p-7 shadow-lg">
+        <span class="absolute -top-3 left-1/2 -translate-x-1/2 rounded-full bg-blue-600 px-3 py-1 text-xs font-bold text-white">Most Popular</span>
+        <p class="mb-1 text-sm font-bold text-blue-600">Growth</p>
+        <p class="mb-4 text-3xl font-extrabold text-slate-900">월 79만 원<span class="text-base font-medium text-gray-400">부터</span></p>
+        <p class="mb-6 flex-1 text-sm leading-relaxed text-gray-500">고객지원, 상품 탐색, 상담 전환을 함께 운영하려는 기업에 적합한 표준 플랜입니다.</p>
+        <ul class="mb-8 space-y-2.5 text-sm text-gray-600">
+          <li class="flex gap-2"><span class="text-emerald-500">✓</span>Starter 전체 포함</li>
+          <li class="flex gap-2"><span class="text-emerald-500">✓</span>질문 리스트/처리 상태 관리</li>
+          <li class="flex gap-2"><span class="text-emerald-500">✓</span>부정 평가/RAG 실패 관리</li>
+          <li class="flex gap-2"><span class="text-emerald-500">✓</span>답변지침 관리</li>
+          <li class="flex gap-2"><span class="text-emerald-500">✓</span>상담/예약/구매 CTA 연결</li>
+          <li class="flex gap-2"><span class="text-emerald-500">✓</span>사용량 대시보드</li>
+          <li class="flex gap-2"><span class="text-emerald-500">✓</span>우선 기술 지원</li>
+        </ul>
+        <a href="contact.html" class="rounded-full bg-blue-600 py-2.5 text-center text-sm font-semibold text-white hover:bg-blue-700">Growth 문의</a>
+      </div>
+
+      <div class="flex flex-col rounded-2xl border border-gray-200 bg-white p-7 shadow-sm">
+        <p class="mb-1 text-sm font-bold text-gray-500">Enterprise</p>
+        <p class="mb-4 text-3xl font-extrabold text-slate-900">별도 협의</p>
+        <p class="mb-6 flex-1 text-sm leading-relaxed text-gray-500">대량 데이터, 복수 브랜드, 고급 보안, 내부 시스템 연동, 설치형 또는 전용 환경이 필요한 조직을 위한 플랜입니다.</p>
+        <ul class="mb-8 space-y-2.5 text-sm text-gray-600">
+          <li class="flex gap-2"><span class="text-emerald-500">✓</span>Growth 전체 포함</li>
+          <li class="flex gap-2"><span class="text-emerald-500">✓</span>복수 브랜드/프로젝트 통합 운영</li>
+          <li class="flex gap-2"><span class="text-emerald-500">✓</span>설치형/전용 환경 협의</li>
+          <li class="flex gap-2"><span class="text-emerald-500">✓</span>고급 보안/감사 로그</li>
+          <li class="flex gap-2"><span class="text-emerald-500">✓</span>CRM/CDP 연동 협의</li>
+          <li class="flex gap-2"><span class="text-emerald-500">✓</span>전담 구축 지원 &amp; SLA 협의</li>
+        </ul>
+        <a href="contact.html" class="rounded-full border border-gray-300 py-2.5 text-center text-sm font-semibold text-slate-700 hover:bg-gray-50">Enterprise 상담</a>
+      </div>
+
+    </div>
+    <p class="mx-auto mt-10 max-w-2xl text-center text-xs text-gray-400">
+      * 표기된 금액은 시작가 기준이며, 데이터 규모, 월 질문량, 보안 요구사항, 연동 범위에 따라 실제 견적은 달라질 수 있습니다.
+    </p>
+  </div>
+</section>
+
+<section class="relative overflow-hidden bg-gradient-to-br from-slate-50 via-blue-50 to-indigo-50 py-20">
+  <div class="dot-grid pointer-events-none absolute inset-0 opacity-[0.04]"></div>
+  <div class="relative mx-auto max-w-2xl px-4 text-center">
+    <h2 class="text-2xl font-extrabold text-slate-900 sm:text-3xl">어떤 플랜이 맞는지 함께 확인해 보세요.</h2>
+    <div class="mt-8 flex flex-col items-center justify-center gap-4 sm:flex-row">
+      <a href="contact.html" class="w-full rounded-full bg-slate-900 px-8 py-3 text-center text-sm font-semibold text-white hover:bg-slate-800 sm:w-auto">무료 진단 신청</a>
+      <a href="faq.html" class="w-full rounded-full border border-gray-300 bg-white px-8 py-3 text-center text-sm font-semibold text-slate-700 hover:bg-gray-50 sm:w-auto">FAQ 보기</a>
+    </div>
+  </div>
+</section>
+
+<div id="site-footer"></div>
+<script src="assets/site.js" data-base="." data-page="pricing"></script>
+</body>
+</html>
